@@ -38,8 +38,6 @@ struct MeshCollider_tB525E4DDE383252364ED0BDD32CF2B53914EE455;
 struct MethodInfo_t;
 // UnityEngine.Object
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
-// UnityEngine.Rigidbody
-struct Rigidbody_t268697F5A994213ED97393309870968BC1C7393C;
 // System.String
 struct String_t;
 // System.Void
@@ -1990,15 +1988,6 @@ IL2CPP_EXTERN_C  float RaycastHit_get_distance_m035194B0E9BB6229259CFC43B095A9C8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void UnityEngine.Rigidbody::set_freezeRotation(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody_set_freezeRotation_m6D049F82E9133020C31EEFB35A179A56364325DC (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* __this, bool ___value0, const RuntimeMethod* method) 
-{
-	typedef void (*Rigidbody_set_freezeRotation_m6D049F82E9133020C31EEFB35A179A56364325DC_ftn) (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C*, bool);
-	static Rigidbody_set_freezeRotation_m6D049F82E9133020C31EEFB35A179A56364325DC_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Rigidbody_set_freezeRotation_m6D049F82E9133020C31EEFB35A179A56364325DC_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Rigidbody::set_freezeRotation(System.Boolean)");
-	_il2cpp_icall_func(__this, ___value0);
-}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
